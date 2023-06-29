@@ -1,5 +1,5 @@
-# liquidity-multisig-executions
-This repository is used to keep track of executing function calls on `Sygma` mainnet liquidity multisig.
+# community-multisig-executions
+This repository is used to keep track of executing function calls on `Sygma` mainnet community multisig.
 The idea is to have a file describing a set of functions that we want to execute on a specific chain for mainnet environment. This way, when opening a new PR, we can describe required calls across all supported domains (networks).
 
 The flow is described below:
