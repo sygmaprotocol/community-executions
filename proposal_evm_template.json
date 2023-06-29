@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "chainId": "chainId of network tx should be executed on",
+  "createdAt": "unix timestamp",
+  "meta": {
+    "name": "Transactions Batch",
+    "description": "short description what has been done",
+    "txBuilderVersion": "1.13.3",
+    "createdFromSafeAddress": "0xAddress",
+    "createdFromOwnerAddress": "",
+    "checksum": "",
+    "txHash": "transaction hash of executed multisig call"
+  },
+  "transactions": [
+    {
+      "to": "address of contract that should execute the function",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "param type",
+            "name": "param name",
+            "type": "param type"
+          },
+          {
+            "internalType": "param type",
+            "name": "param name",
+            "type": "param type"
+          },
+          {
+            "internalType": "param type",
+            "name": "param name",
+            "type": "param type"
+          }
+        ],
+        "name": "function name",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "first param name": "first param value",
+        "second param name": "second param value",
+        "third param name": "third param value"
+      }
+    },
+    {
+      "to": "address of contract that should execute the function",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "internalType": "param type",
+            "name": "param name",
+            "type": "param type"
+          },
+          {
+            "internalType": "param type",
+            "name": "param name",
+            "type": "param type"
+          },
+          {
+            "internalType": "param type",
+            "name": "param name",
+            "type": "param type"
+          }
+        ],
+        "name": "function name",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "first param name": "first param value",
+        "second param name": "second param value",
+        "third param name": "third param value"
+      }
+    }
+  ]
+}

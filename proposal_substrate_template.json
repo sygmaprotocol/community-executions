@@ -1,0 +1,25 @@
+{
+    "chainId": "chainId of network tx should be executed on",
+    "proposalDescription": "description of this proposal",
+    "multisigAddress": "substrate multisig address",
+    "executedByProxy": true,
+    "proxyAddress": "substrate proxy address, leave as empty if not executed by proxy",
+    "createdAt": "unix timestamp",
+    "extrinsics": [
+      {
+        "palletName": "on which pallet this extrinsic will be executed",
+        "extrinsicName": "extrinsic name",
+        "arguments": [
+          {
+            "name": "argument name",
+            "type": "argument substrate type",
+            "value": "argument value"
+          }
+        ],
+        "hex-encodedCallData": "hex encoded call data that used to decode the extrinsic details on polkadot js app",
+        "blockHash": "hash of the block that extrinsic got finalized",
+        "extrinsicID": "extrinsic identifier, for example: 5729508-2 where 5729508 is the block height, 2 is the extrinsic index in the block"
+      }
+    ]
+  }
+  
