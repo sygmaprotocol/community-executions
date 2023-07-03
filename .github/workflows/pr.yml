@@ -7,7 +7,7 @@ name: "Check PR naming"
 steps:
 - uses: deepakputhraya/action-pr-title@master
   with:
-    regex: '^(\[(\w+)\] Proposal #(\d+): ([\w\s]+)|chore: ([\w\s]+)|fix: ([\w\s]+)|feat: ([\w\s]+))$' 
+    regex: '^(Proposal #(\d+): ([\w\s]+)|chore: ([\w\s]+)|fix: ([\w\s]+)|feat: ([\w\s]+))$' 
     # Regex the title should match.
     min_length: 5 # Min length of the title
     max_length: 40 # Max length of the title
