@@ -2,7 +2,9 @@
 
 root_folder="$1"
 template_file=""
-extension=""
+readme_template_file=""
+extension="json"
+readme_extension="md"
 timestamp=$(date +%Y_%m_%d)
 
 # Check if the root folder is valid
@@ -11,18 +13,24 @@ if [ "$root_folder" != "evm" ] && [ "$root_folder" != "substrate" ]; then
   exit 1
 fi
 
-# Determine the template file based on the root folder
+# Determine the template file and readme file based on the root folder
 if [ "$root_folder" == "evm" ]; then
   template_file="proposal_evm_template.json"
-  extension="json"
+  readme_template_file="README_evm_template.md"
 else
   template_file="proposal_substrate_template.json"
-  extension="json"
+  readme_template_file="README_substrate_template.md"
 fi
 
 # Check if the template file exists
 if [ ! -f "$template_file" ]; then
   echo "Template file not found: $template_file"
+  exit 1
+fi
+
+# Check if the README template file exists
+if [ ! -f "$readme_template_file" ]; then
+  echo "README template file not found: $readme_template_file"
   exit 1
 fi
 
@@ -46,6 +54,13 @@ for dir in "${@:2:$#-1}"; do
   if [ ! -d "$root_folder/$dir" ]; then
     echo "Directory not found: $root_folder/$dir. Please ensure the folder represents a valid chain name."
     continue
+  fi
+
+  # Create README.md file if it does not exist
+  readme_filename="$root_folder/$dir/README.${readme_extension}"
+  if [ ! -f "$readme_filename" ]; then
+    cp "$readme_template_file" "$readme_filename"
+    echo "Copied README template file to: $readme_filename"
   fi
 
   # Generate the destination filenames
