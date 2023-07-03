@@ -6,7 +6,7 @@
     "name": "Transactions Batch",
     "description": "",
     "txBuilderVersion": "1.16.0",
-    "createdFromSafeAddress": "0xde79695d5cefF7c324552B3ecbe6165f77FCdF53",
+    "createdFromSafeAddress": "0xc4d8b2F5501C765dE0C5E12550118F397B197D05",
     "createdFromOwnerAddress": "",
     "checksum": "0xeab42c588cbafc091d1863594798faa155a313d72f4457637d1905128232ee2b"
   },
@@ -33,7 +33,7 @@
       },
       "contractInputsValues": {
         "handlerAddress": "0xC832588193cd5ED2185daDA4A531e0B26eC5B830",
-        "data": ""
+        "data": "0x0000000000000000000000006c5ba91642f10282b576d91922ae6448c9d52f4e000000000000000000000000a399460ce767b06297457178d2f9f8f144017e770000000000000000000000000000000000000000000000000de0b6b3a7640000"
       }
     }
   ]
