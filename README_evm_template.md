@@ -1,4 +1,4 @@
-# EVM_network Super-Admin multisig
+# EVM_network Community multisig
 
 ## Multisig (3/5)
 
@@ -8,6 +8,3 @@
 - David: `0x0`
 - Mak: `0x0`
 
-## Operational address
-
-`0x0`

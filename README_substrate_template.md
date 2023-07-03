@@ -1,4 +1,4 @@
-# Substrate_network Super-Admin multisig
+# Substrate_network Community multisig
 
 ## Multisig (2/3)
 **Proxy address:** `44`
@@ -9,6 +9,3 @@
 - David: `44`
 - Hatcher: `44`
 
-## Operational address
-
-`44`
