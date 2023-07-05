@@ -8,7 +8,8 @@
     "txBuilderVersion": "1.16.0",
     "createdFromSafeAddress": "0xc4d8b2F5501C765dE0C5E12550118F397B197D05",
     "createdFromOwnerAddress": "",
-    "checksum": "0xeab42c588cbafc091d1863594798faa155a313d72f4457637d1905128232ee2b"
+    "checksum": "0xeab42c588cbafc091d1863594798faa155a313d72f4457637d1905128232ee2b",
+    "txHash": "0x545ed1ee7927f443ee112af0d3a10b3f175a62d9cc2ee6754f14afb1d44029c0"
   },
   "transactions": [
     {
