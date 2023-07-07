@@ -12,4 +12,5 @@
 ### Phala
 - Marvin: `0x0xa399460Ce767b06297457178D2F9F8f144017E77` [[etherscan](https://etherscan.io/address/0x0xa399460Ce767b06297457178D2F9F8f144017E77)]
 - Hang: `0xd85b34B2Fe1eC7815B6dF659372382A8FA229677` [[etherscan](https://etherscan.io/address/0xd85b34B2Fe1eC7815B6dF659372382A8FA229677)]
+- Wenfeng: `0x0c1db86328E6CFCD4f530401131Dc9a26DefA12a` [[etherscan](https://etherscan.io/address/0x0c1db86328E6CFCD4f530401131Dc9a26DefA12a)]
 
