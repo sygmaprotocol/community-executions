@@ -1,6 +1,6 @@
 # Mainnet Community multisig
 
-## Multisig (2/5)
+## Multisig (4/6)
 
 **Address:** `0xc4d8b2F5501C765dE0C5E12550118F397B197D05` [[etherscan](https://etherscan.io/address/0xc4d8b2F5501C765dE0C5E12550118F397B197D05)]
 
